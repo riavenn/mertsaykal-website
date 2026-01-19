@@ -62,7 +62,7 @@ function Header() {
     <div className="flex flex-col px-5 py-10 md:p-50 relative overflow-hidden">
       <div className="absolute -top-20 -left-20 w-50 h-50 md:w-90 md:h-90 bg-cyan-400 rounded-full blur-[120px] pointer-events-none"></div>
       <div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full blur-[80px] pointer-events-none"></div>
-      <div className="flex flex-col lg:flex-row justify-center text-white md:gap-40">
+      <div className="flex flex-col lg:flex-row justify-center text-white md:gap-40 pb-5">
         <div className="flex flex-col gap-5 items-center relative">
           <div className="">
             <img
