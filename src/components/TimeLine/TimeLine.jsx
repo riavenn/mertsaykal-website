@@ -34,14 +34,16 @@ function TimeLine() {
   const timeLineText = (
     <span className="">
       <span className="text-cyan-400">{"< "}</span>
-      <span className="text-white">Education & Experiences</span>
+      <span className="bg-gradient-to-r from-white to-cyan-400 bg-clip-text text-transparent">
+        Education & Experiences
+      </span>
       <span className="text-cyan-400">{" />"}</span>
     </span>
   );
 
   return (
     <div className="p-10 mt-10 md:pb-30">
-      <div className="text-xl md:text-4xl text-center mb-10 tracking-[1px] md:tracking-[5px]">
+      <div className="text-xl md:text-4xl md:text-center mb-10 tracking-[1px] md:tracking-[5px]">
         {timeLineText}
       </div>
       <div className="flex items-center md:justify-center ">

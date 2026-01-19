@@ -9,7 +9,9 @@ function Projects() {
   const projectsText = (
     <span className="">
       <span className="text-cyan-400">{"< "}</span>
-      <span className="text-white">Featured Projects</span>
+      <span className="bg-gradient-to-r from-white to-cyan-400 bg-clip-text text-transparent">
+        Featured Projects
+      </span>
       <span className="text-cyan-400">{" />"}</span>
     </span>
   );
@@ -61,7 +63,7 @@ function Projects() {
 
   return (
     <div className="p-10 mt-10 md:pt-30 lg:px-30">
-      <div className="text-xl md:text-4xl text-center mb-10 tracking-[1px] md:tracking-[5px]">
+      <div className="text-xl md:text-4xl md:text-center mb-10 tracking-[1px] md:tracking-[5px]">
         {projectsText}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

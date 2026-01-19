@@ -54,14 +54,16 @@ function Skills() {
   const skillText = (
     <span className="">
       <span className="text-cyan-400">{"< "}</span>
-      <span className="text-white">Skills & Technologies</span>
+      <span className="bg-gradient-to-r from-white to-cyan-400 bg-clip-text text-transparent">
+        Skills & Technologies
+      </span>
       <span className="text-cyan-400">{" />"}</span>
     </span>
   );
 
   return (
     <div className="p-10 md:pt-30 md:px-30">
-      <div className="text-xl md:text-4xl text-center mb-10 tracking-[1px] md:tracking-[5px]">
+      <div className="text-xl md:text-4xl md:text-center mb-10 tracking-[1px] md:tracking-[5px]">
         {skillText}
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-10 items-center justify-center bg-[--card-background-color]">

@@ -48,7 +48,7 @@ function TypeWriter() {
     return () => clearTimeout(timer);
   }, [currentText, isDeleting, loopNum, titles, titleIndex]);
 
-  return <span className="text-cyan-400">{currentText}</span>;
+  return <span>{currentText}</span>;
 }
 
 function Header() {
@@ -89,8 +89,8 @@ function Header() {
               <h1>Mert Saykal</h1>
             </div>
           </div>
-          <div className="text-xl md:text-2xl text-cyan-400 text-center min-h-8">
-            <h2 className="w-full">
+          <div className="text-xl md:text-2xl text-center min-h-8">
+            <h2 className="w-full bg-gradient-to-r from-cyan-400 to-white bg-clip-text text-transparent">
               <TypeWriter />
             </h2>
           </div>
