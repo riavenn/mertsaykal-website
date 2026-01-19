@@ -24,7 +24,7 @@ function SocialLinks() {
           href={link.url}
           target="_blank"
           key={index}
-          className="text-4xl text-white hover:text-cyan-400 transition-text-color duration-500">
+          className="text-3xl md:text-4xl text-white hover:text-cyan-400 transition-text-color duration-500">
           {link.icon}
         </a>
       ))}

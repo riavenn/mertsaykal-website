@@ -2,29 +2,31 @@ import { FaCircle } from "react-icons/fa";
 
 function TimeLine() {
   const education = (
-    <div className="flex flex-col gap-2 w-60  md:w-100">
+    <div className="flex flex-col gap-2 w-50 md:w-100">
       <div className="text-[var(--primary-color)] mb-1">Education</div>
-      <div className="text-lg">Akdeniz University</div>
-      <div className="text-md md:wd-100">Management Information Systems</div>
+      <div className="text-md md:text-lg">Akdeniz University</div>
+      <div className="text-sm md:text-md md:wd-100">
+        Management Information Systems
+      </div>
       <div className="text-sm italic">September 2020 - June 2025</div>
       <div className="text-sm italic">GNO: 3.45</div>
     </div>
   );
 
   const intership = (
-    <div className="flex flex-col gap-2 w-60 md:w-100">
+    <div className="flex flex-col gap-2 w-50 md:w-100">
       <div className="text-[var(--primary-color)] mb-1">Experience</div>
-      <div className="text-lg">Teknodev</div>
-      <div className="text-md">Front-End Developer Intern</div>
+      <div className="text-md md:text-lg">Teknodev</div>
+      <div className="text-sm md:text-md">Front-End Developer Intern</div>
       <div className="text-sm italic">Feb 2025 - May 2025</div>
     </div>
   );
 
   const freelance = (
-    <div className="flex flex-col gap-2 w-60 md:w-100">
+    <div className="flex flex-col gap-2 w-50 md:w-100">
       <div className="text-[var(--primary-color)] mb-1">Experience</div>
-      <div className="text-lg">Freelancer</div>
-      <div className="text-md">Front-End Developer</div>
+      <div className="text-md md:text-lg">Freelancer</div>
+      <div className="text-sm md:text-md">Front-End Developer</div>
       <div className="text-sm italic">June 2025 - Present</div>
     </div>
   );
