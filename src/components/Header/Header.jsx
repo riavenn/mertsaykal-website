@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import headerImage from "../../../public/images/headerImage.jpg?as=webp&width=800";
+import headerImage from "../../assets/headerImage.jpg?as=webp&width=400";
 import SocialLinks from "../SocialLinks/SocialLinks";
 
 function TypeWriter() {
@@ -69,6 +69,8 @@ function Header() {
               src={headerImage}
               alt="Mert Saykal"
               className="w-50 h-50 md:w-85 md:h-85 rounded-full border-4 border-gray-800 object-cover p-1"
+              loading="eager"
+              fetchpriority="high"
             />
           </div>
           <div className="hidden md:block flex flex-col bg-white/10 backdrop-blur-md gap-3 border-2 border-white/20 shadow-xl p-3 rounded-lg absolute -bottom-30 right-5 md:-bottom-15 md:-right-20 z-999">

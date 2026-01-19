@@ -1,9 +1,9 @@
-import aübt from "../../../public/images/aübt.jpg?as=webp&width=800";
-import nisaPortfolyo from "../../../public/images/nisaPortfolyo.jpg?as=webp&width=800";
-import sephironOtel from "../../../public/images/sephironOtel.jpg?as=webp&width=800";
-import nismedKlinik from "../../../public/images/nismedKlinik.jpg?as=webp&width=800";
-import adaletHukuk from "../../../public/images/adaletHukuk.jpg?as=webp&width=800";
-import bellaVista from "../../../public/images/bellaVista.jpg?as=webp&width=800";
+import aübt from "../../assets/aübt.jpg?as=webp&width=800";
+import nisaPortfolyo from "../../assets/nisaPortfolyo.jpg?as=webp&width=800";
+import sephironOtel from "../../assets/sephironOtel.jpg?as=webp&width=800";
+import nismedKlinik from "../../assets/nismedKlinik.jpg?as=webp&width=800";
+import adaletHukuk from "../../assets/adaletHukuk.jpg?as=webp&width=800";
+import bellaVista from "../../assets/bellaVista.jpg?as=webp&width=800";
 
 function Projects() {
   const projectsText = (
@@ -76,6 +76,7 @@ function Projects() {
                 src={project.image}
                 alt={project.title}
                 className="w-full h-full object-cover p-5 rounded-4xl"
+                loading="lazy"
               />
             </div>
             <div className="px-4 pb-4 flex flex-col gap-2">
